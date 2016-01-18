@@ -1785,6 +1785,7 @@ body {
   color: #999;
   line-height: 2.142857;
   font: 14px 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -1883,9 +1884,14 @@ img.desaturate {
 }
 .banner .heading {
   text-transform: uppercase;
-  font-size: 4.285714em;
+  font-size: 2.5em;
   line-height: 1.666;
   margin-bottom: 0.5em;
+}
+@media (min-width: 768px) {
+  .banner .heading {
+    font-size: 4.2857em;
+  }
 }
 .banner .header-description {
   font-family: inherit;
@@ -1903,6 +1909,7 @@ img.desaturate {
 
 #we-love {
   display: block;
+  white-space: nowrap;
 }
 @media (min-width: 992px) {
   #we-love {
@@ -2808,9 +2815,13 @@ img.desaturate {
   color: #fff;
   border: 1px solid #323232;
   text-align: left;
-  padding: 0 3em;
-  padding-top: 14em;
+  padding: 3em 1em;
   height: 25em;
+}
+@media (min-width: 768px) {
+  .blog .articles .entry {
+    padding-top: 14em;
+  }
 }
 .blog .articles .entry a {
   color: inherit;
@@ -2910,14 +2921,20 @@ img.desaturate {
 .site-footer .subscription {
   color: #4c4b4b;
   display: block;
-  font-size: 4.2857em;
+  font-size: 3em;
   font-weight: 300;
   border: none;
   background-color: transparent;
   border-bottom: 1px solid #8d8d8d;
   letter-spacing: -3px;
-  width: 85%;
   padding-right: 10%;
+  width: 90%;
+}
+@media (min-width: 768px) {
+  .site-footer .subscription {
+    font-size: 4.2857em;
+    width: 85%;
+  }
 }
 .site-footer label {
   display: block;
