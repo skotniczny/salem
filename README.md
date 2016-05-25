@@ -8,7 +8,7 @@ Responsive website based on [Salem theme](http://salem.senorthemes.com/dark-patt
 * Built with plain JavaScript
 * Responsive
 * CSS3 animation
-* Some accessibility and progressive enhancement improvments
+* Some accessibility and progressive enhancement improvements
 * Iconic font
 * Pricing tables with flip animation
 
